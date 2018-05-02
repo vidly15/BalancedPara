@@ -1,6 +1,6 @@
 language: cpp
 compiler: gcc
-Script: make && make test
+script: make && make test
 #Can add notifications section as desired
 
 before_install:
