@@ -2,7 +2,7 @@
 CXXFLAGS=-stdc++11 -fprofile-arcs -ftest-coverage -g
 # TODO: create the target for balanced.o, using
 # the following command to create the object file:
-balanced.0:
+balanced.o:
 	g++ $(CXXFLAGS) -c balanced.cpp -o balanced.o
 
 
